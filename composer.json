@@ -1,0 +1,39 @@
+{
+    "name": "django_w/industrial-platform-foundation",
+    "type": "project",
+    "description": "This is a foundation project for an industrial Internet platform that provides access to databases and networks, adapted to microservices",
+    "keywords": [
+        "framework",
+        "laravel"
+    ],
+    "authors": [
+        {
+            "name": "Django_W",
+            "homepage": "https://jenssegers.com"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "jenssegers/mongodb": "^3.5"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AW\\IPF\\IPFServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "AW\\IPF\\": "packages/aw/ipf/src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
