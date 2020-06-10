@@ -37,12 +37,6 @@
                                  'workTimeMeter', 'organizationIfo', 'manufacturer', 'manufacturerInfo',
                                  'carrierModelTypeInfo', 'mseThreshold', 'customerName', 'manufacturerId'];
 
-        protected $fillable = ['pid', 'enterpriseId', 'factoryNumber', 'frameNumber', 'type', 'model', 'time',
-                               'purchaseDate',
-                               'deviceId', 'warrantCondition', 'warrantConditionH', 'plateNumber', 'manufacturer',
-                               'series', 'mastNumber',
-                               'carryingCapacity', 'serviceLife', 'batteryCapacity', 'annualSurvey', 'warehouse',
-                               'isCheckIn', 'batteryIdList', 'attList', 'editTime'];
 
         /**
          * 禁止耗时操作添加
